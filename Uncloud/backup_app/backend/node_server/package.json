@@ -1,0 +1,20 @@
+{
+  "name": "uncloud-backend",
+  "version": "1.0.0",
+  "description": "Uncloud backup - Node.js backend for Telegram storage",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "tdl": "^8.0.0",
+    "prebuilt-tdlib": "^0.1008062.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "better-sqlite3": "^9.2.2",
+    "multer": "^1.4.5-lts.1",
+    "dotenv": "^16.3.1"
+  }
+}
